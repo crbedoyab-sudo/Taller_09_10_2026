@@ -1,5 +1,4 @@
 from locust import HttpUser, task
-import random
 
 class Accounts(HttpUser):
     @task
